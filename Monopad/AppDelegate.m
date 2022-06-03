@@ -16,7 +16,7 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    [self.textView setFont:[NSFont fontWithName:@"SF Mono Medium" size:12.0]];
 }
 
 
