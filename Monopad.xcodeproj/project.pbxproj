@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		691AC146284A5CE1006264F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 691AC145284A5CE1006264F0 /* AppDelegate.m */; };
+		691AC148284A5CE2006264F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691AC147284A5CE2006264F0 /* Assets.xcassets */; };
+		691AC14B284A5CE2006264F0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 691AC149284A5CE2006264F0 /* MainMenu.xib */; };
+		691AC14D284A5CE2006264F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 691AC14C284A5CE2006264F0 /* main.m */; };
+		691AC158284A5CE2006264F0 /* MonopadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 691AC157284A5CE2006264F0 /* MonopadTests.m */; };
+		691AC162284A5CE2006264F0 /* MonopadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 691AC161284A5CE2006264F0 /* MonopadUITests.m */; };
+		691AC164284A5CE2006264F0 /* MonopadUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 691AC163284A5CE2006264F0 /* MonopadUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		691AC154284A5CE2006264F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 691AC139284A5CE1006264F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 691AC140284A5CE1006264F0;
+			remoteInfo = Monopad;
+		};
+		691AC15E284A5CE2006264F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 691AC139284A5CE1006264F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 691AC140284A5CE1006264F0;
+			remoteInfo = Monopad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		691AC141284A5CE1006264F0 /* Monopad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monopad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		691AC144284A5CE1006264F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		691AC145284A5CE1006264F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		691AC147284A5CE2006264F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		691AC14A284A5CE2006264F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		691AC14C284A5CE2006264F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		691AC14E284A5CE2006264F0 /* Monopad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Monopad.entitlements; sourceTree = "<group>"; };
+		691AC153284A5CE2006264F0 /* MonopadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonopadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		691AC157284A5CE2006264F0 /* MonopadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonopadTests.m; sourceTree = "<group>"; };
+		691AC15D284A5CE2006264F0 /* MonopadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonopadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		691AC161284A5CE2006264F0 /* MonopadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonopadUITests.m; sourceTree = "<group>"; };
+		691AC163284A5CE2006264F0 /* MonopadUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonopadUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		691AC13E284A5CE1006264F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691AC150284A5CE2006264F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691AC15A284A5CE2006264F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		691AC138284A5CE1006264F0 = {
+			isa = PBXGroup;
+			children = (
+				691AC143284A5CE1006264F0 /* Monopad */,
+				691AC156284A5CE2006264F0 /* MonopadTests */,
+				691AC160284A5CE2006264F0 /* MonopadUITests */,
+				691AC142284A5CE1006264F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		691AC142284A5CE1006264F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				691AC141284A5CE1006264F0 /* Monopad.app */,
+				691AC153284A5CE2006264F0 /* MonopadTests.xctest */,
+				691AC15D284A5CE2006264F0 /* MonopadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		691AC143284A5CE1006264F0 /* Monopad */ = {
+			isa = PBXGroup;
+			children = (
+				691AC144284A5CE1006264F0 /* AppDelegate.h */,
+				691AC145284A5CE1006264F0 /* AppDelegate.m */,
+				691AC147284A5CE2006264F0 /* Assets.xcassets */,
+				691AC149284A5CE2006264F0 /* MainMenu.xib */,
+				691AC14C284A5CE2006264F0 /* main.m */,
+				691AC14E284A5CE2006264F0 /* Monopad.entitlements */,
+			);
+			path = Monopad;
+			sourceTree = "<group>";
+		};
+		691AC156284A5CE2006264F0 /* MonopadTests */ = {
+			isa = PBXGroup;
+			children = (
+				691AC157284A5CE2006264F0 /* MonopadTests.m */,
+			);
+			path = MonopadTests;
+			sourceTree = "<group>";
+		};
+		691AC160284A5CE2006264F0 /* MonopadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				691AC161284A5CE2006264F0 /* MonopadUITests.m */,
+				691AC163284A5CE2006264F0 /* MonopadUITestsLaunchTests.m */,
+			);
+			path = MonopadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		691AC140284A5CE1006264F0 /* Monopad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 691AC167284A5CE2006264F0 /* Build configuration list for PBXNativeTarget "Monopad" */;
+			buildPhases = (
+				691AC13D284A5CE1006264F0 /* Sources */,
+				691AC13E284A5CE1006264F0 /* Frameworks */,
+				691AC13F284A5CE1006264F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Monopad;
+			productName = Monopad;
+			productReference = 691AC141284A5CE1006264F0 /* Monopad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		691AC152284A5CE2006264F0 /* MonopadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 691AC16A284A5CE2006264F0 /* Build configuration list for PBXNativeTarget "MonopadTests" */;
+			buildPhases = (
+				691AC14F284A5CE2006264F0 /* Sources */,
+				691AC150284A5CE2006264F0 /* Frameworks */,
+				691AC151284A5CE2006264F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				691AC155284A5CE2006264F0 /* PBXTargetDependency */,
+			);
+			name = MonopadTests;
+			productName = MonopadTests;
+			productReference = 691AC153284A5CE2006264F0 /* MonopadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		691AC15C284A5CE2006264F0 /* MonopadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 691AC16D284A5CE2006264F0 /* Build configuration list for PBXNativeTarget "MonopadUITests" */;
+			buildPhases = (
+				691AC159284A5CE2006264F0 /* Sources */,
+				691AC15A284A5CE2006264F0 /* Frameworks */,
+				691AC15B284A5CE2006264F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				691AC15F284A5CE2006264F0 /* PBXTargetDependency */,
+			);
+			name = MonopadUITests;
+			productName = MonopadUITests;
+			productReference = 691AC15D284A5CE2006264F0 /* MonopadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		691AC139284A5CE1006264F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					691AC140284A5CE1006264F0 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					691AC152284A5CE2006264F0 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 691AC140284A5CE1006264F0;
+					};
+					691AC15C284A5CE2006264F0 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 691AC140284A5CE1006264F0;
+					};
+				};
+			};
+			buildConfigurationList = 691AC13C284A5CE1006264F0 /* Build configuration list for PBXProject "Monopad" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 691AC138284A5CE1006264F0;
+			productRefGroup = 691AC142284A5CE1006264F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				691AC140284A5CE1006264F0 /* Monopad */,
+				691AC152284A5CE2006264F0 /* MonopadTests */,
+				691AC15C284A5CE2006264F0 /* MonopadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		691AC13F284A5CE1006264F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691AC148284A5CE2006264F0 /* Assets.xcassets in Resources */,
+				691AC14B284A5CE2006264F0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691AC151284A5CE2006264F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691AC15B284A5CE2006264F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		691AC13D284A5CE1006264F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691AC14D284A5CE2006264F0 /* main.m in Sources */,
+				691AC146284A5CE1006264F0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691AC14F284A5CE2006264F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691AC158284A5CE2006264F0 /* MonopadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691AC159284A5CE2006264F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691AC162284A5CE2006264F0 /* MonopadUITests.m in Sources */,
+				691AC164284A5CE2006264F0 /* MonopadUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		691AC155284A5CE2006264F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 691AC140284A5CE1006264F0 /* Monopad */;
+			targetProxy = 691AC154284A5CE2006264F0 /* PBXContainerItemProxy */;
+		};
+		691AC15F284A5CE2006264F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 691AC140284A5CE1006264F0 /* Monopad */;
+			targetProxy = 691AC15E284A5CE2006264F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		691AC149284A5CE2006264F0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				691AC14A284A5CE2006264F0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		691AC165284A5CE2006264F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		691AC166284A5CE2006264F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		691AC168284A5CE2006264F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Monopad/Monopad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q75439Q8C6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = st.aerial.Monopad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		691AC169284A5CE2006264F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Monopad/Monopad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q75439Q8C6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = st.aerial.Monopad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		691AC16B284A5CE2006264F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q75439Q8C6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = st.aerial.MonopadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monopad.app/Contents/MacOS/Monopad";
+			};
+			name = Debug;
+		};
+		691AC16C284A5CE2006264F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q75439Q8C6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = st.aerial.MonopadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monopad.app/Contents/MacOS/Monopad";
+			};
+			name = Release;
+		};
+		691AC16E284A5CE2006264F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q75439Q8C6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = st.aerial.MonopadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = Monopad;
+			};
+			name = Debug;
+		};
+		691AC16F284A5CE2006264F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q75439Q8C6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = st.aerial.MonopadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = Monopad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		691AC13C284A5CE1006264F0 /* Build configuration list for PBXProject "Monopad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691AC165284A5CE2006264F0 /* Debug */,
+				691AC166284A5CE2006264F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		691AC167284A5CE2006264F0 /* Build configuration list for PBXNativeTarget "Monopad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691AC168284A5CE2006264F0 /* Debug */,
+				691AC169284A5CE2006264F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		691AC16A284A5CE2006264F0 /* Build configuration list for PBXNativeTarget "MonopadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691AC16B284A5CE2006264F0 /* Debug */,
+				691AC16C284A5CE2006264F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		691AC16D284A5CE2006264F0 /* Build configuration list for PBXNativeTarget "MonopadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691AC16E284A5CE2006264F0 /* Debug */,
+				691AC16F284A5CE2006264F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 691AC139284A5CE1006264F0 /* Project object */;
+}
