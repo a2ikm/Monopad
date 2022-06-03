@@ -10,6 +10,7 @@
 @interface AppDelegate ()
 
 @property (strong) IBOutlet NSWindow *window;
+@property (strong) IBOutlet NSTextView *textView;
 @end
 
 @implementation AppDelegate
